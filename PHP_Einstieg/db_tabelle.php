@@ -8,6 +8,7 @@
     <p>Testabfragen:</p>
     <?php
 $con=mysqli_connect("127.0.0.1","root","", "firma");
+//test
 
 if (mysqli_connect_errno())
 {
