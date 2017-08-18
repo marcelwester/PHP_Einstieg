@@ -1,0 +1,19 @@
+[Unit]
+Description=statusMonitor check
+
+[Service]
+ExecStart=/opt/htdocs/dev/statusMonitor/check.sh
+User=root
+WorkingDirectory=/opt/htdocs/dev/statusMonitor
+Restart=always
+RestartSec=3
+
+[Install]
+RequiredBy=default.target
+
+
+# /etc/systemd/system/statusMonitor.service
+
+
+# systemctl  daemon-reload
+# systemctl start statusMonitor

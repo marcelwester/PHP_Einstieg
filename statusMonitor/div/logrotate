@@ -1,0 +1,8 @@
+/etc/logrotate.d/statusMonitor
+
+/var/log/statusMonitor.log {
+   copytruncate
+   size 4096k
+   compress
+   rotate 10
+}

@@ -1,0 +1,18 @@
+# /etc/init/statusMonitor.conf
+start on stopped rc RUNLEVEL=3
+respawn
+exec /var/www/html/statusMonitor/check.sh
+
+
+# /etc/init/telegram-bot.conf
+start on stopped rc RUNLEVEL=3
+respawn
+exec /var/www/html/telegram-bot/send.sh
+
+initctl reload-configuration
+initctl start telegram-bot
+initctl start statusMonitor
+
+initctl list
+
+

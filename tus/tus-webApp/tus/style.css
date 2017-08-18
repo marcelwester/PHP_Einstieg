@@ -1,0 +1,84 @@
+table.eins
+	{
+		border : 1px solid  #000000;
+		background-color :  #FFFFFF;
+	}
+body
+	{
+		font-size : 11px;
+		font-family : verdana;
+		color : #000000;
+		font-style : normal;
+
+		scrollbar-3d-light-color: #000000;
+		scrollbar-arrow-color: #000000;
+		scrollbar-base-color: #000000;
+		scrollbar-dark-shadow-color: #AAAAAA;
+		scrollbar-face-color: #F4F5FA;
+		scrollbar-highlight-color: #F4F5FA;
+		scrollbar-shadow-color: #DDDDDD;
+	}
+a
+	{
+	 	font-size : 11px;
+	 	font-family : verdana;
+	 	color : #093162;
+	 	text-decoration : underline;
+	 	font-style : normal;
+	}
+a:active
+	{
+	 	font-size : 11px;
+	 	font-family : verdana;
+	 	color : #093162;
+	 	text-decoration : underline;
+	 	font-style : normal;
+	}
+
+a:hover
+	{
+	 	font-size : 11px;
+	 	font-family : verdana;
+	 	color : #093162;
+	 	text-decoration : none;
+	 	font-style : normal;
+	}
+
+a:visited
+	{
+	 	font-size : 11px;
+	 	font-family : verdana;
+	 	color : #093162;
+	 	text-decoration : underline;
+	 	font-style : normal;
+	}
+
+td
+	{
+		border : 1px solid  #000000;
+	 	font-size : 11px;
+	 	font-family : verdana;
+	 	color : #000000;
+	 	text-decoration : none;
+	 	font-style : normal;
+	}
+
+td.none
+	{
+		border : 0px;
+	 	font-size : 11px;
+	 	font-family : verdana;
+	 	color : #000000;
+	 	text-decoration : none;
+	 	font-style : normal;
+	}
+
+td.foot
+	{
+		border : 1px solid  #000000;
+	 	font-size : 9px;
+	 	font-family : verdana;
+	 	color : #000000;
+	 	text-decoration : none;
+	 	font-style : normal;
+	}
